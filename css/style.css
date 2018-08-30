@@ -146,42 +146,42 @@ header nav .nav-list a {
 }
 
 .main {
-  outline: 2px solid #DDD;
   width: 90%;
   height: calc(100vh - 120px);
   margin: auto;
   display: block;
+  position: relative;
 }
 
 .main .main-intro {
   color: #FFF;
+  font-size: 2.5rem;
   text-shadow: -3px 0 5px black, -3.5px 0 5px white;
   display: block;
-  margin-top: 20px;
+  line-height: 130px;
 }
 
 .main ul{
     display: block;
     justify-content: center;
+    font-size: 1.6rem;
 }
 
 .occupation {
-  font-size: 1.2rem;
   font-weight: bold;
   color: white;
-  line-height: 2rem;
   text-shadow: -2px 0 5px black, -2.5px 0 5px white;
   list-style-type: none;
 }
 
 .contact-container{
+  border: 1px solid rgba(0,0,0, 0.7);
   border-radius: 5px;
-  box-shadow: -5px 5px 15px black;
-  width:350px;
-  height: 110px;
-  position: absolute;
-    top: 55.5%;
-    right: 7%;
+  box-shadow: 0 0 15px black;
+  width: 200px;
+  height: 60px;
+  position: relative;
+  margin: 100px auto 0 auto;
 }
 
 .contact{
@@ -191,19 +191,17 @@ header nav .nav-list a {
   position: absolute;
   top:0;
   left:0;
-  background-color: rgba(255,255,255,0.1);
+  background-color: rgb(255,255,255);
 }
 
 .contact h3{
-  text-align: left;
-  margin-left: 25px;
+  text-align: center;
   border-radius: 5px 5px 0 0;
   width: 100%;
   font-size: 1.2rem;
   font-weight: bold;
-  color: white;
-  line-height: 1.5rem;
-  text-shadow: -2px 0 5px black, -2.5px 0 5px white;
+  color: #000;
+  line-height: 60px;
   list-style-type: none;
   text-decoration: underline;
 }
@@ -226,12 +224,12 @@ header nav .nav-list a {
 }
 
 .default{
-  width: 150px;
-  height: 150px;
+  width: 170px;
+  height: 170px;
   border-radius: 50%;
   overflow: hidden;
   box-shadow: 0 0 10px #CCC, 0 0 10px #FFF;
-  margin: 0 auto 0 auto;
+  margin: 50px auto 0 auto;
   display: block;
 }
 
