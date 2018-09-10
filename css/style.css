@@ -184,7 +184,7 @@ header nav .nav-list a {
 
 .main {
   width: 90%;
-  height: calc(100vh - 120px);
+  height: calc(100% - 120px);
   margin: auto;
   display: block;
   position: relative;
@@ -418,17 +418,17 @@ header nav .nav-list a {
   box-shadow: 0 0 20px 2px #000;
 }
 
-.box-container .goal-paragraph {
+.goal-paragraph {
   font-size: 1.5rem;
   font-family: Garamond;
 }
 
-.box-container .goal-box {
+.goal-box {
   margin: 0 auto 0 auto;
   width: 550px;
 }
 
-.box-container .goal-box .goal-list {
+.goal-list {
   margin: 0 auto 0 70px;
   text-align: left;
   line-height: 2rem;
@@ -592,7 +592,7 @@ header nav .nav-list {
 
 .edu-container {
   max-width: 90%;
-  height: 340px;
+  height: calc(100vh - 180px);
   margin: 75px auto auto auto;
 }
 
@@ -616,42 +616,16 @@ header nav .nav-list {
 /*/////////////////////////BEGINNING GOALS.HTML///////////////////////*/
 /*/////////////////////////BEGINNING GOALS.HTML///////////////////////*/
 
-.goal-main {
-  height: calc(100vh - 60px);
-  background-image: url('../img/background.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-  margin-top: 60px;
-}
-
-.box-container {
-  background-color: #fff;
-  min-width: 300px;
-  max-width: 800px;
-  height: 350px;
-  padding-top: 40px;
-  margin: 150px auto auto auto;
-  border-radius: 5px;
-  box-shadow: 0 0 20px 2px #000;
-}
-
-.box-container .goal-paragraph {
-  font-size: 1.5rem;
-  font-family: Garamond;
-}
-
-.box-container .goal-box {
+.goal-box {
   margin: 0 auto 0 auto;
   width: 550px;
 }
 
-.box-container .goal-box .goal-list {
-  margin: 0 auto 0 70px;
+.goal-list {
+  margin: 0 auto 0 15px;
   text-align: left;
-  line-height: 2rem;
-  font-size: 1.2rem;
+  line-height: 1.5rem;
+  font-size: 1rem;
   font-family: arial;
 }
 
