@@ -500,6 +500,11 @@ footer h3 {
 /*/////////////////////////BEGINNING INDEX.HTML///////////////////////*/
 /*/////////////////////////BEGINNING INDEX.HTML///////////////////////*/
 
+#bodyindex {
+  background-size: cover;
+  background-position: top;
+}
+
 header img {
   display: inline-block;
   width: 50px;
@@ -593,7 +598,7 @@ header nav .nav-list {
 .edu-container {
   max-width: 90%;
   height: 340px;
-  margin: 65px auto auto auto;
+  margin: 75px auto auto auto;
 }
 
 .edu-container h1 {
