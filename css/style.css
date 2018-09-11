@@ -615,8 +615,8 @@ header nav .nav-list {
 
 .edu-container {
   max-width: 90%;
-  height: calc(100vh - 180px);
-  margin: 75px auto auto auto;
+  height: calc(100vh - 167px);
+  margin: 63px auto auto auto;
 }
 
 .edu-container h1 {
@@ -648,7 +648,7 @@ header nav .nav-list {
 .goal-list {
   margin: 0 auto 0 15px;
   text-align: left;
-  line-height: 2rem;
+  line-height: 1.8rem;
   font-size: 1rem;
   font-family: arial;
 }
@@ -663,8 +663,8 @@ header nav .nav-list {
 
 .cont-container {
   max-width: 90%;
-  height: calc(100vh - 180px);
-  margin: 70px auto auto auto;
+  height: calc(100vh - 167px);
+  margin: 63px auto auto auto;
 }
 
 /*/////////////////////////END CONTACT.HTML///////////////////////*/
