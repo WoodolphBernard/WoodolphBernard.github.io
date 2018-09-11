@@ -574,7 +574,11 @@ header nav .nav-list {
 }
 
 .about-para {
-  max-width: 80%;
+  max-width: 87%;
+}
+
+.about-para p {
+  font-size: 1rem;
 }
 
 /*/////////////////////////END INDEX.HTML///////////////////////*/
