@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Responsive Login Form</title>
+  </head>
+  <link rel="stylesheet" href="style.css">
+
+  <body>
+    <div class="wrapper">
+      <!-- Login form -->
+      <form action="#">
+
+        <!-- Title -->
+        <h1 class="title">
+          Responsive Login Form
+        </h1>
+        <hr>
+
+        <!-- Image -->
+        <div class="imgcontainer">
+          <img src="https://cdn.iconscout.com/icon/free/png-256/avatar-372-456324.png" alt="Avatar" class="avatar">
+        </div>
+
+        <!-- Labels and Inputs -->
+        <div class="container">
+
+          <!-- Username -->
+          <label for="uname">Username</label>
+          <input type="text" name="uname" id="uname" placeholder="Enter Username" required>
+
+          <!-- Password -->
+          <label for="pwd">Password</label>
+          <input type="password" name="pwd" id="pwd" placeholder="Enter Password" required>
+
+          <!-- Button -->
+          <button type="submit" name="submit">Login</button>
+
+          <!-- Remember Me Checkbox -->
+          <label for="remember">
+            <input type="checkbox" name="remember" checked="checked">Remember me
+          </label>
+
+          <!-- Cancel and Forgot -->
+          <div class="container">
+            <button type="button" name="cancelbtn" class="cancelbtn">Cancel</button>
+            <span class="psw">Forgot <a href="#">Password?</a></span>
+          </div>
+
+        </div>
+
+      </form>
+    </div>
+
+  </body>
+</html>

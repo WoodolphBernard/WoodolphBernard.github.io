@@ -323,7 +323,7 @@ header nav .nav-list a {
   position: relative;
   display: inline-block;
   width: 30%;
-  height: auto;
+  height: 222.05px;
   margin: 10px;
   border-radius: 15px;
   overflow: hidden;
@@ -349,7 +349,7 @@ header nav .nav-list a {
 }
 
 .proj-container .proj-wrapper .figures .figure-tint:hover {
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(0,0,0,0.85);
   transition: background-color 0.3s ease-In-Out;
 }
 

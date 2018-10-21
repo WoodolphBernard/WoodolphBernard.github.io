@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  max-width: 550px;
+  height: auto;
+  margin:  20px auto auto;
+
+  // Border form
+  form {
+    border: 3px solid #f1f1f1;
+
+    // Center Title
+    h1.title {
+      text-align: center;
+    }
+
+    // Center Image Avatar
+    .imgcontainer {
+      text-align: center;
+      margin: 24px 0 12px;
+
+      // Style Avatar Image
+      img.avatar {
+        width: 40%;
+        border-radius: 50%;
+      }
+
+    }
+
+    // Add Padding to Containers
+    .container {
+      padding: 16px;
+
+      // Make inputs have full widths
+      input[type=text], input[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+      }
+
+      // Style Buttons
+      button {
+       background: #4CAF50;
+       color: #fff;
+       padding: 14px 20px;
+       margin: 8px 0;
+       border: none;
+       cursor: pointer;
+       width: 100%;
+
+       // Button Hover Effect
+       &:hover {
+          opacity: 0.8;
+        }
+
+      }
+
+      // Style Cancel Button
+      .cancelbtn {
+        width: auto;
+        padding: 10px 18px;
+        background: #F44336;
+      }
+
+      // Style and Align Forgot Password Text
+      span.psw {
+        float: right;
+        padding-top: 16px;
+      }
+
+    }
+
+  }
+
+}
+
+
+
+// Change style for span and cancel button on smaller devices
+@media only screen and (max-width: 480px) {
+  .wrapper form .container span.psw {
+    display: block;
+    float: none;
+  }
+  .wrapper form .container .cancelbtn {
+    width: 100%;
+  }
+}
